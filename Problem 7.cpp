@@ -1,17 +1,17 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
+using namespace std;
 
 int main(int argc, char *argv[]) {
     int n,a,max=0;
-    scanf("%d",&n);
+    cin>>n;
 
     for(int i=0;i<n;++i){
-        scanf("%d",&a);
+        cin>>a;
         if(max<a)
         max=a;
     }
 
-    printf("%d\n",max);
+    cout<<max<<"\n";
 
 	return 0;
 }
