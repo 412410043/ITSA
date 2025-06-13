@@ -1,15 +1,15 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
+using namespace std;
 
 int main(int argc, char *argv[]) {
     int n;
-    scanf("%d",&n);
+    cin>>n;
 
     for(int i=1;i<=n;i+=2){
         if(i<=n-2)
-        printf("%d ",i);
+        cout<<i<<" ";
         else
-        printf("%d\n",i);
+        cout<<i<<"\n";
     }
 
 	return 0;
