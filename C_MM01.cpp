@@ -1,13 +1,12 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main(int argc, char *argv[]) {
-    double a,b;
-    cin>>a>>b;
+    double u,l,h;
+    cin>>u>>l>>h;
 
-    double area;
-    area=a*b/2;
+    cout<<"Trapezoid area:"<<fixed<<setprecision(1)<<(u+l)*h/2<<"\n";
 
-    cout<<fixed<<setprecision(1)<<area<<"\n";
 	return 0;
 }
