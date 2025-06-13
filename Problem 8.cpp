@@ -1,21 +1,21 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
+using namespace std;
 
 int main(int argc, char *argv[]) {
     int n;
-    scanf("%d",&n);
+    cin>>n;
 
     switch(n){
         case 1:{
-            printf("Person\n");
+            cout<<("Person\n");
             break;
         }
         case 2:{
-            printf("Fairy\n");
+            cout<<("Fairy\n");
             break;
         }
         case 3:{
-            printf("Dwarf\n");
+            cout<<("Dwarf\n");
         }
     }
 
