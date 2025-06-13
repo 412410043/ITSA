@@ -1,9 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
+using namespace std;
 
 int main(int argc, char *argv[]) {
     double a,b,sum=0;
-    scanf("%lf %lf",&a,&b);
+    cin>>a>>b;
 
     if(a>=121){
         sum+=(a-120)*b*1.66f;
@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
     else
     sum+=a*b;
 
-    printf("%.1lf\n",sum);
+    cout<<fixed<<setprecision(1)<<sum<<"\n";
 
 	return 0;
 }
