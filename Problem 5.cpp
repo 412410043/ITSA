@@ -1,9 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
+using namespace std;
 
 int main(int argc, char *argv[]) {
     int a;
-    scanf("%d",&a);
+    cin>>a;
 
     if(a>=100)
     a*=100*0.7f;
@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
     else
     a*=100;
 
-    printf("%d\n",a);
+    cout<<a<<"\n";
 
 	return 0;
 }
