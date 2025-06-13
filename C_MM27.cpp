@@ -1,9 +1,10 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
+#include <iomanip>
+using namespace std;
 
 int main(int argc, char *argv[]) {
     int a,b;
-    scanf("%d %d",&a,&b);
+    cin>>a>>b;
 
     if(a>b){
         a=a^b;
@@ -11,7 +12,7 @@ int main(int argc, char *argv[]) {
         a=a^b;
     }
 
-    printf("%d\n",(a+b)*(b-a+1)/2);
+    cout<<(a+b)*(b-a+1)/2<<"\n";
 
 	return 0;
 }
