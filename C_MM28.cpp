@@ -1,16 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
+using namespace std;
 
 int main(int argc, char *argv[]) {
     int n;
-    scanf("%d",&n);
+    cin>>n;
     n/=35;
 
     for(int i=1;i<=n;++i){
         if(i<n)
-        printf("%d ",i*35);
+        cout<<i*35<<" ";
         else
-        printf("%d\n",i*35);
+        cout<<i*35<<"\n";
     }
 
 	return 0;
