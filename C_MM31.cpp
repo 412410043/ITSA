@@ -1,16 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
+using namespace std;
 
 int main(int argc, char *argv[]) {
     int n,sum=0;
-    scanf("%d",&n);
+    cin>>n;
 
     for(int i=1;i<=n;++i){
         if(!(i%6) && i%12)
         sum+=i;
     }
 
-    printf("%d\n",sum);
+    cout<<sum<<"\n";
     
 	return 0;
 }
