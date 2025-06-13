@@ -1,9 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
+using namespace std;
 
 int main(int argc, char *argv[]) {
     int n,cnt=0;
-    scanf("%d",&n);
+    cin>>n;
 
     for(int i=2;i<n/2;++i){
         if(n%i==0){
@@ -13,9 +13,9 @@ int main(int argc, char *argv[]) {
     }
 
     if(cnt)
-    printf("NO\n");
+    cout<<"NO\n";
     else
-    printf("YES\n");
+    cout<<"YES\n";
     
 	return 0;
 }
