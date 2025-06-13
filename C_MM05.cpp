@@ -1,15 +1,14 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
+#include <bits/stdc++.h>
+using namespace std;
 
 int main(int argc, char *argv[]) {
     double n;
-    scanf("%lf",&n);
+    cin>>n;
     n*=n*10;
     n=round(n);
     n/=10;
 
-    printf("%.1lf\n",n);
+    cout<<fixed<<setprecision(1)<<n<<"\n";
     
 	return 0;
 }
