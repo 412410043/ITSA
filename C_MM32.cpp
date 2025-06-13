@@ -1,14 +1,14 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
+using namespace std;
 
 int main(int argc, char *argv[]) {
     int n;
-    scanf("%d",&n);
+    cin>>n;
 
     if(n==(n/100)*(n/100)*(n/100)+(n%100/10)*(n%100/10)*(n%100/10)+(n%10)*(n%10)*(n%10))
-    printf("Yes\n");
+    cout<<"Yes\n";
     else
-    printf("No\n");
+    cout<<"No\n";
     
 	return 0;
 }
