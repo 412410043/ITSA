@@ -1,9 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
+using namespace std;
 
 int main(int argc, char *argv[]) {
     int a,d[3]={0};
-    scanf("%d",&a);
+    cin>>a;
 
     while(a>=86400){
         a-=86400;
@@ -20,7 +20,7 @@ int main(int argc, char *argv[]) {
         ++d[2];
     }
 
-    printf("%d days\n%d hours\n%d minutes\n%d seconds\n",d[0],d[1],d[2],a);
 
+    cout<<d[0]<<" days\n"<<d[1]<<" hours\n"<<d[2]<<" minutes\n"<<a<<" seconds\n";
 	return 0;
 }
