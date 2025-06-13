@@ -1,19 +1,19 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
+using namespace std;
 
 int main(int argc, char *argv[]) {
     int a,sum=0;
-    scanf("%d",&a);
+    cin>>a;
 
     for(int i=1;i<=a;++i){
         sum+=i;
         if(i<a)
-        printf("%d + ",i);
+        cout<<i<<(" + ");
         else
-        printf("%d = ",i);
+        cout<<i<<(" = ");
     }
 
-    printf("%d\n",sum);
+    cout<<sum<<"\n";
     
 	return 0;
 }
